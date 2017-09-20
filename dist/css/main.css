@@ -1,0 +1,90 @@
+/**
+By : Mostafa ASHARF
+ */
+li:hover {
+  background-color: #ffee58;
+  cursor: pointer; }
+
+li h5 {
+  color: darkslategrey;
+  font-weight: bold; }
+
+li input[type="checkbox"] {
+  float: right;
+  height: 20px;
+  width: 20px;
+  margin-top: 15px; }
+
+#form {
+  background-color: #263238;
+  width: 400px;
+  padding: 20px;
+  position: absolute;
+  transition: top 0.4s linear 0s;
+  right: 170px;
+  top: -270px;
+  border-radius: 0 0 7px 7px;
+  box-shadow: 0 0 5px black; }
+
+#form label {
+  color: #FFF; }
+
+#controlPanelBtn {
+  padding: 2px 5px;
+  cursor: pointer;
+  float: right;
+  position: absolute;
+  right: 130px;
+  top: 10px;
+  width: 33px;
+  height: 30px;
+  background: linear-gradient(#FFF, #DDD);
+  border: #AAA 1px solid;
+  border-radius: 2px; }
+
+#controlPanelBtn > div {
+  width: 20px;
+  height: 4px;
+  background: #333;
+  margin: 3px 0;
+  border-radius: 4px;
+  transition: background 0.4s linear 0s; }
+
+#controlPanelBtn:hover > div {
+  background-color: #4db6ac; }
+
+#logo {
+  position: absolute;
+  top: 0; }
+
+.jumbotron h1, p {
+  margin: 30px 100px; }
+
+#img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 10px;
+  right: 200px; }
+
+.jumbotron h5 {
+  position: absolute;
+  right: 150px;
+  color: darkslategrey; }
+
+.jumbotron span {
+  font-weight: bold;
+  font-family: "Courier New";
+  font-size: 16px; }
+
+.jumbotron > p {
+  color: #2196f3; }
+
+#infos {
+  color: #ffee58; }
+
+#body {
+  width: 100%;
+  background: linear-gradient(#512da8, #7e57c2); }
+
+/*# sourceMappingURL=main.css.map */

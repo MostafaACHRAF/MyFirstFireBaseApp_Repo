@@ -1,0 +1,16 @@
+{
+  "name": "fireBaseProject",
+  "version": "1.0.0",
+  "devDependencies": {
+    "babel-core": "^6.20.0",
+    "babel-plugin-transform-es2015-modules-umd": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "chokidar": "^1.6.*",
+    "eslint": "^3.12.0",
+    "fs-extra": "^1.0.0",
+    "mkdirp": "^0.5.1",
+    "node-sass": "^3.13.0",
+    "rollup": "^0.36.*",
+    "uglify-js": "^2.7.5"
+  }
+}

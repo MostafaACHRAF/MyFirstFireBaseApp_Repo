@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="dist/css/main.css">
+    <title>My first fireBase App</title>
+</head>
+<body>
+<div id="body">
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Firebase App</h1>
+            <p>Welcome to my super app</p>
+            <img src="src/scss/images/iii.PNG" id="img" class="img-circle" />
+            <h5>Developed and Designed by <span>Mostafa ASHARF</span></h5>
+            <div id="controlPanelBtn">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div id="logo">
+            <img src="src/scss/images/fireLogo.png" />
+        </div>
+        <form id="form">
+            <div class="form-group">
+                <label for="objet"></label>
+                <input type="text" class="form-control" id="objet" placeholder="Enter the objet of your message here...">
+                <label for="corps"></label>
+                <textarea id="corps" class="form-control" placeholder="Enter your message here..." cols="50" rows="3"></textarea>
+            </div>
+            <div class="btn-group">
+                <button id="send" type="button" class="btn btn-primary  btn-lg">Send</button>
+                <button id="remove" type="button" class="btn btn-primary btn-lg">Remove</button>
+                <button id="checkAllMsg" type="button" class="btn btn-primary btn-lg">Check all</button>
+            </div>
+        </form>
+        <h2 id="infos"></h2>
+        <div id="alerts"></div>
+        <div id="mainScreen">
+            <ul id="list" class="list-group">
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+
+<script src="dist/js/main.js"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
